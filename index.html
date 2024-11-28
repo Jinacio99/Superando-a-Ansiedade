@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superando a Ansiedade</title>
+    <style>
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-image: url('fundo.jpg'); /* Caminho correto para a imagem */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-attachment: fixed; /* Para manter a imagem fixa enquanto o conteúdo rola */
+    background-position: center; /* Centraliza a imagem */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #4682b4, #5a9bd4);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+nav {
+    background: #5a9bd4;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffcccb;
+    text-decoration: underline;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card h2, .card h3 {
+    color: #4682b4;
+    margin-bottom: 15px;
+}
+
+.card p, .card ol, .card ul {
+    text-align: justify;
+    margin: 10px 0;
+}
+
+.card ul {
+    padding-left: 20px;
+}
+
+.ad-banner {
+    position: relative;
+    background: #f8e8a0;
+    
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    font-size: 1em;
+    max-width: 450px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.ad-banner img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+}
+
+.ad-banner a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+.ad-banner a:hover {
+    background: rgba(0, 0, 0, 0.7);
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0;
+    background: #4682b4;
+    color: #fff;
+    font-size: 0.9em;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    color: #ffcccb;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Superando a Ansiedade</h1>
+        <p>Motivação, apoio e equilíbrio para sua jornada</p>
+    </header>
+    <nav>
+        <a href="#posts">Início</a>
+        <a href="#tips">Dicas</a>
+        <a href="#reviews">Avaliações</a>
+        <a href="#highlights">Destaques</a>
+        <a href="#newsletter">Newsletter</a>
+    </nav>
+    <div class="container">
+        <!-- Postagens -->
+        <div class="card" id="posts">
+            <h2>Postagens Recentes</h2>
+            <p><strong>Acalme Sua Mente:</strong> 5 técnicas práticas para o dia a dia. Respiração consciente, caminhadas ao ar livre e meditação são algumas práticas que podem trazer paz à sua mente.</p>
+            <a href="5passos.html">➡️ Leia mais</a>
+            <p><strong>Ansiedade:</strong> Um sinal de que você está vivo e luta. Descubra como entender e canalizar suas emoções.</p>
+            <a href="Ansiedade.html">➡️ Leia mais</a>
+        </div>
+
+        <!-- Dicas Motivacionais -->
+        <div class="card" id="tips">
+            <h2>Dicas Motivacionais</h2>
+            <ul>
+                <li>Respire fundo e recomece. Cada dia é uma nova chance para ser gentil consigo mesmo.</li>
+                <li>Celebrar pequenas conquistas é essencial. Tudo conta.</li>
+                <li>Procure apoio. Conversar com amigos, familiares ou um profissional faz toda a diferença.</li>
+                <li><a href="dicas.html">➡️ Veja Mais</a></li>
+            </ul>
+        </div>
+
+        <!-- Avaliações -->
+        <div class="card" id="reviews">
+            <h2>Avaliações do Blog</h2>
+            <div class="review">
+                <p>"O conteúdo é muito informativo e realmente ajuda em momentos difíceis."</p>
+                <div class="stars">★★★★★</div>
+                <p><strong>- Clara M.</strong></p>
+            </div>
+            <div class="review">
+                <p>"As dicas práticas são fáceis de aplicar no dia a dia. Recomendo!"</p>
+                <div class="stars">★★★★☆</div>
+                <p><strong>- João R.</strong></p>
+            </div>
+            <div class="review">
+                <p>"Encontrei apoio e inspiração aqui. Melhor blog sobre ansiedade!"</p>
+                <div class="stars">★★★★★</div>
+                <p><strong>- Ana L.</strong></p>
+            </div>
+            <div class="review">
+                <p>"Gostei muito, mas gostaria de mais exemplos práticos em cada postagem."</p>
+                <div class="stars">★★★★☆</div>
+                <p><strong>- Lucas S.</strong></p>
+            </div>
+        </div>
+
+        <!-- Destaques -->
+        <div class="card" id="highlights">
+            <h2>Destaques</h2>
+            <div class="highlight">
+                <h3>1. Descubra o poder do autocuidado</h3>
+                <p>Dedique 15 minutos do seu dia para cuidar de si mesmo. Essa pequena prática pode transformar sua rotina.</p>
+            </div>
+            <div class="highlight">
+                <h3>2. Assista e Inspire-se</h3>
+                <p>Confira um vídeo inspirador que pode mudar sua perspectiva sobre ansiedade:</p>
+                <iframe src="https://www.youtube.com/embed/Qo8M0HSQyR8?si=rJ7TNWg_mOFuwHJN" title="YouTube video player" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="card" id="newsletter">
+            <h2>Newsletter</h2>
+            <p>Receba as melhores dicas e novidades diretamente no seu e-mail.</p>
+            <form>
+                <input type="email" placeholder="Digite seu e-mail" required>
+                <button type="submit">Inscrever-se</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Superando a Ansiedade. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
